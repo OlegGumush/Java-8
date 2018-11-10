@@ -17,8 +17,18 @@ public class Main {
 		System.out.println(l1);
 
 		MyInterface m = new MyInterfaceImpl();
-		List<Student> l2 = m.sortStudents(l1);
+		m.sortStudents(l1);
+		System.out.println(l1);
 		
-		System.out.println(l2);
+		// static interface method
+		// MyInterfaceImpl.greet("Oleg"); - compilation error
+		MyInterface.greet("Oleg");
+		
+		
+		// max method
+		List<Integer> list = new ArrayList<>();
+		list.add(2);
+		list.add(3);
+		System.out.println(m.getMaxNum(list));
 	}
 }
