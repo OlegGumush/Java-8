@@ -1,4 +1,4 @@
-package Lesson01_Default_Static_Methods;
+package Lesson01_Default_And_Static_Method_In_Interface;
 
 public class Lesson01 {
 
