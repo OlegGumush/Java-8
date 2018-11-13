@@ -24,15 +24,15 @@ public class Main {
 		MyInterfaceWithParams my3 = new MyInterfaceWithParams() {
 			
 			@Override
-			public void method2(String name) {
-				System.out.println(name);
+			public void method2(String name,int num) {
+				System.out.println(name + num);
 			}
 		};
-		my3.method2("Oleg");
+		my3.method2("Oleg",1);
 		
 		
 		// lambda class
-		MyInterfaceWithParams my4 = (String name) -> {System.out.println(name);};
-		my4.method2("Oleg");
+		MyInterfaceWithParams my4 = (name , num) -> {System.out.println(name + num);};
+		my4.method2("Oleg",2);
 	}
 }
