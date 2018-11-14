@@ -13,6 +13,5 @@ public class RetureValueFromLambda {
 		MyInterface myInterface1 = (n1,n2) -> n1 < n2;
 		System.out.println(myInterface1.test(40, 60));
 	
-	
 	}
 }
