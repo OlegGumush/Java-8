@@ -1,7 +1,5 @@
 package com.Chapter_07_TypeInference.Lesson_01;
 
-import java.util.Comparator;
-
 @FunctionalInterface
 public interface MyComparator
 {
