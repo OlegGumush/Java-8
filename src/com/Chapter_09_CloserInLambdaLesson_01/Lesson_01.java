@@ -7,10 +7,14 @@ public class Lesson_01 {
 
 	public static void main(String[] args) {
 		int x = 30 ;
-		final int y = 34 ; 
+		int y = 34 ; 
 		
-		// if we try to change y value in anonymous class it will cause to an Exception
-		doOperate(x, (int n) -> System.out.println(x+y));
+		doOperate(x, (int n) -> {
+			    //error y should be final
+				//y= 100;
+				System.out.println(x+y);
+			}
+		);
 	}
 	
 	public static void doOperate(int i , Operaion o) {
