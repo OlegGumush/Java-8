@@ -2,7 +2,6 @@ package com.Chapter_04_IterateCollectionUsingForeach.Lesson_01;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Main {
 
