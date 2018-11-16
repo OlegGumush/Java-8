@@ -3,7 +3,7 @@ package com.Chapter_08_MethodReference.Lesson_01;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class MethodReference {
+public class MethodReferenceToStaticFunction {
 
 	public static void main(String[] args) {
 		
@@ -13,7 +13,7 @@ public class MethodReference {
 		
 		// my method reference
 		ExecutorService service1 = Executors.newSingleThreadExecutor();
-		service1.execute(MethodReference::myRun);
+		service1.execute(MethodReferenceToStaticFunction::myRun);
 	}
 	
 	private static void myRun() {
