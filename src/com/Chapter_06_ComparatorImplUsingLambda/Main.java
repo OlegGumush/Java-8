@@ -1,4 +1,4 @@
-package com.Chapter_06_ComparatorImplUsingLambda.Lesson_01;
+package com.Chapter_06_ComparatorImplUsingLambda;
 
 import java.util.ArrayList;
 import java.util.Collections;

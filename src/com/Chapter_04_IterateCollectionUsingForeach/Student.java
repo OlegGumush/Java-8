@@ -1,6 +1,7 @@
-package com.Chapter_05_IterateMapUsingForeach.Lesson_01;
+package com.Chapter_04_IterateCollectionUsingForeach;
 
-public class Employee {
+public class Student {
+
 	private String name;
 	private int age;
 
@@ -8,7 +9,7 @@ public class Employee {
 	public String toString() {
 		return "Student [name=" + name + ", age=" + age + "]";
 	}
-	public Employee(String name, int age) {
+	public Student(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -26,5 +27,4 @@ public class Employee {
 	public void setAge(int age) {
 		this.age = age;
 	}	
-	
 }

@@ -1,4 +1,4 @@
-package com.Chapter_04_IterateCollectionUsingForeach.Lesson_01;
+package com.Chapter_04_IterateCollectionUsingForeach;
 
 public class StaticPrint{
 

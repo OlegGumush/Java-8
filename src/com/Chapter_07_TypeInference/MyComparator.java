@@ -1,4 +1,4 @@
-package com.Chapter_07_TypeInference.Lesson_01;
+package com.Chapter_07_TypeInference;
 
 @FunctionalInterface
 public interface MyComparator

@@ -1,4 +1,4 @@
-package com.Chapter_06_ComparatorImplUsingLambda.Lesson_01;
+package com.Chapter_06_ComparatorImplUsingLambda;
 
 public class Employee {
 

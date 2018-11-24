@@ -1,4 +1,4 @@
-package com.Chapter_05_IterateMapUsingForeach.Lesson_01;
+package com.Chapter_05_IterateMapUsingForeach;
 
 import java.util.HashMap;
 import java.util.Map;

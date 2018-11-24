@@ -1,4 +1,4 @@
-package com.Chapter_09_CloserInLambdaLesson_01;
+package com.Chapter_09_CloserInLambda;
 
 
 public class Lesson_01 {

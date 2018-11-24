@@ -1,4 +1,4 @@
-package com.Chapter_09_CloserInLambdaLesson_01;
+package com.Chapter_10_ThisReferenceInLambda;
 
 public interface Operaion {
 

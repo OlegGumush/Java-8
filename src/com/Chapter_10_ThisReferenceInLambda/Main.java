@@ -1,7 +1,7 @@
 
-package com.Chapter_10_ThisReferenceInLambdaLesson_01;
+package com.Chapter_10_ThisReferenceInLambda;
 
-import com.Chapter_09_CloserInLambdaLesson_01.Operaion;
+import com.Chapter_09_CloserInLambda.Operaion;
 
 public class Main {
 
